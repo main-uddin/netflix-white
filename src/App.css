@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+.banner__content {
+  margin-left: 60px;
+  padding-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner__starnger--img-size {
+  /* width: 399px; */
+  /* height: 399px; */
+  margin-top: 46px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner__btn--container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.banner__content--heading {
+  height: 31px;
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+.banner__content--text {
+  width: 424px;
+  height: 84px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 15px 0px;
+}
+
+.transfarent--btn {
+  width: 135px;
+  height: 38px;
+  border: 1px solid #676767;
+  box-sizing: border-box;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-left: 11px;
+  cursor: pointer;
+}
+.transfarent--btn span {
+  font-style: normal;
+  margin-left: 11px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+}
+.play--btn {
+  width: 100px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  background: #ed2517;
+}
+.play--btn span {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+/* route css  */
+
+.root__container {
+  padding: 20px 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* movies list heading  */
+
+.movies-card__container {
+  display: flex;
+  overflow: hidden;
 }
+
+.movies__header--position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.movie-list__header {
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #0b0303;
+}
+
+.movie-list__see-all {
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  color: #757575;
+}
+
+.release__heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.release__heading-text {
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #0b0303;
+}
+.release__heading-icon {
+  width: 5px;
+  height: 13px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+/* released year  */
+.released-year__container {
+  margin-top: 45px;
+}
+
+/* route label css  */
+
+.home-content {
+  padding: 0px 62px 60px 62px;
+}
+.common-route-content {
+  padding: 0px 62px 60px 62px;
+  margin-top: 100px;
+}
+

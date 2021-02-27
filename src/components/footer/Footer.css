@@ -1,0 +1,65 @@
+.footer-container {
+  margin-top: 60px;
+}
+.footer-container-alt {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+  right: 60px;
+}
+
+.social-media__icon {
+  display: flex;
+}
+.social-media__icon img {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.about-us {
+  display: flex;
+  margin-top: 20px;
+}
+
+.about-us div {
+  margin-right: 150px;
+}
+
+.about-us p {
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0b0303;
+  cursor: pointer;
+}
+
+.service-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  height: 30px;
+  border: 1px solid #0b0303;
+  box-sizing: border-box;
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #0b0303;
+  margin-top: 20px;
+}
+
+.dummy-txt {
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #0b0303;
+  margin-top: 20px;
+}

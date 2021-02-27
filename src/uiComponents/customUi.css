@@ -1,0 +1,22 @@
+.horizontal-card__container {
+  position: relative;
+  min-width: 217px;
+  height: 123px;
+  margin-left: 4px;
+}
+.horizontal__favourite-icon--positon {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  cursor: pointer;
+}
+.horizontal-card__img--sizes {
+  min-width: 217px;
+  min-height: 123px;
+}
+
+.vertical-card__img--sizes {
+  width: 217px;
+  height: 434px;
+  margin-left: 4px;
+}

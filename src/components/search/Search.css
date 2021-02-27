@@ -1,0 +1,7 @@
+.search__img {
+  display: inline-flex;
+}
+.search__img img {
+  width: 217px;
+  height: 123px;
+}
