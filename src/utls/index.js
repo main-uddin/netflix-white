@@ -1,4 +1,4 @@
-const api_root = 'http://www.omdbapi.com'
+const api_root = 'https://www.omdbapi.com'
 
 export const getMovies = str => {
   return window
